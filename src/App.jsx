@@ -1,16 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import CompanyLogo from "./components/CompanyLogo";
+import FeaturesSection from "./components/FeaturesSection";
+import DesignSection from "./components/DesignSection";
+import CustomerSection from "./components/CustomerSection";
+import About from "./components/About";
+import TryNow from "./components/TryNow";
+import Footer from "./components/Footer";
 function App() {
-  
-
   return (
     <>
-      <h1>HELLO AYUSH</h1>
+      <Navbar />
+      <Hero />
+      <CompanyLogo />
+      <FeaturesSection />
+      <DesignSection />
+      <CustomerSection />
+      <About />
+      <TryNow />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
